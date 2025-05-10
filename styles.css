@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header, h1, h2 {
+    text-align: center;
+}
+
+.gov2-login__list-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.gov2-login__list-element:hover {
+    background-color: #eef;
+}
+
+.gov2-login__list-element img {
+    height: 40px;
+}
+
+.gov2-login__list-element--desc h3 {
+    margin: 0 0 5px 0;
+}
+
+.gov2__paragraph {
+    text-align: center;
+    margin: 15px;
+}
